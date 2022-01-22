@@ -64,7 +64,7 @@ nav {
     margin-top: 50px;
 }
 
-.names h2 {
+#weds h2 {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     font-size: 40px;
@@ -78,4 +78,10 @@ nav {
 
 .weddingDate span {
     font-size: 40px;
+}
+
+.weMet p {
+    /* font-family: 'Playfair Display', serif; */
+    font-weight: bold;
+    font-size: 20px;
 }
