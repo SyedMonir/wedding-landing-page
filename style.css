@@ -10,18 +10,19 @@
 }
 
 hr {
-    width: 40%;
+    width: 80%;
     margin: 10px auto;
-    height: 30px;
-    border: 5px solid tomato;
-    border-radius: 20px;
+    border: 5px solid black;
+    /* height: 30px;
+    
+    border-radius: 20px; */
 }
 
 nav {
     background-color: white;
 }
 
-.navbar-light .navbar-nav .nav-link  {
+.navbar-light .navbar-nav .nav-link {
     color: #3c3e48;
     font-weight: 500;
     padding: 29px 19px;
@@ -37,7 +38,7 @@ nav {
 }
 
 
-#banner video{
+#banner video {
     width: 100%;
 }
 
@@ -47,7 +48,34 @@ nav {
     margin-top: 100px;
 }
 
-#loveStory h2{
+#loveStory h2 {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
+}
+
+#loveStory p {
+    font-weight: 400;
+}
+
+
+
+#weds {
+    border: 5px double black;
+    margin-top: 50px;
+}
+
+.names h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.weddingDate p {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.weddingDate span {
+    font-size: 40px;
 }
