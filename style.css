@@ -1,0 +1,44 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: white;
+}
+
+.navbar-light .navbar-nav .nav-link  {
+    color: #3c3e48;
+    font-weight: 500;
+    padding: 29px 19px;
+    text-transform: uppercase;
+    display: block;
+    font-size: 16px;
+    transition: all .3s ease-out 0s;
+    font-family: 'Barlow', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: tomato;
+}
+
+
+#banner video{
+    width: 100%;
+}
+
+/* Love Story  */
+
+#loveStory {
+    margin-top: 100px;
+}
+
+#loveStory h2{
+    font-family: 'Playfair Display', serif;
+}
